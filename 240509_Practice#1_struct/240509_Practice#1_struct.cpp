@@ -2,13 +2,16 @@
 #include <string>
 using namespace std;
 
+// 구조체 선언은 주로 main문 바깥에다가
+struct Rectangle
+{
+	float width = 0;
+	float height = 0;
+};
+
 int main()
 {
-	struct Rectangle
-	{
-		float width = 0;
-		float height = 0;
-	};
+	
 
 	Rectangle square;
 
